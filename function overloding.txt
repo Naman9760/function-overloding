@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Consolefunction
+{
+    class Program
+    {
+         static int add(int a, int b)
+        {
+            return a + b;
+        }
+        static string add(string a,string b)
+        {
+            return a + b;
+        }
+
+        static void Main(string[] args)
+        {
+            int p = add(12, 45);
+            string  v = add("naman", "Lavi");
+            Console.WriteLine(p);
+            Console.WriteLine(v);
+            Console.ReadLine();
+        }
+    }
+}
